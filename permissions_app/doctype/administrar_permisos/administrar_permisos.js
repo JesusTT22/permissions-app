@@ -2,7 +2,7 @@
 // For license information, please see license.txt
 
 frappe.ui.form.on('Administrar Permisos', {
-	// refresh: function(frm) {
-
-	// }
+	rol_principal: function(frm) {
+		
+	}
 });
