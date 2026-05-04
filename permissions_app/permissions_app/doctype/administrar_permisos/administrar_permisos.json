@@ -26,13 +26,13 @@
   {
    "fieldname": "enlace_documento",
    "fieldtype": "Table",
-   "label": "Enlaces Relacionados de Documentos",
+   "label": "Enlaces Relacionados",
    "options": "Permiso Rol Detalle"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-04-29 17:52:19.103637",
+ "modified": "2026-05-03 18:52:27.239867",
  "modified_by": "Administrator",
  "module": "Permissions App",
  "name": "Administrar Permisos",
