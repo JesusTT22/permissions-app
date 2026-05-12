@@ -1,0 +1,115 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2026-04-29 17:06:03.080117",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "tipo_de_documento",
+  "seleccionar",
+  "leer",
+  "escribir",
+  "crear",
+  "eliminar",
+  "impresi\u00f3n",
+  "correo_electronico",
+  "reporte",
+  "importar__exportar",
+  "exportar",
+  "establecer_permisos_de_usuario",
+  "compartir"
+ ],
+ "fields": [
+  {
+   "fieldname": "tipo_de_documento",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Tipo de Documento",
+   "options": "DocType"
+  },
+  {
+   "default": "0",
+   "fieldname": "seleccionar",
+   "fieldtype": "Check",
+   "label": "Seleccionar"
+  },
+  {
+   "default": "0",
+   "fieldname": "leer",
+   "fieldtype": "Check",
+   "label": "Leer"
+  },
+  {
+   "default": "0",
+   "fieldname": "escribir",
+   "fieldtype": "Check",
+   "label": "Escribir"
+  },
+  {
+   "default": "0",
+   "fieldname": "crear",
+   "fieldtype": "Check",
+   "label": "Crear"
+  },
+  {
+   "default": "0",
+   "fieldname": "eliminar",
+   "fieldtype": "Check",
+   "label": "Eliminar"
+  },
+  {
+   "default": "0",
+   "fieldname": "impresi\u00f3n",
+   "fieldtype": "Check",
+   "label": "Impresi\u00f3n"
+  },
+  {
+   "default": "0",
+   "fieldname": "correo_electronico",
+   "fieldtype": "Check",
+   "label": "Correo Electronico"
+  },
+  {
+   "default": "0",
+   "fieldname": "reporte",
+   "fieldtype": "Check",
+   "label": "Reporte"
+  },
+  {
+   "default": "0",
+   "fieldname": "importar__exportar",
+   "fieldtype": "Check",
+   "label": "Importar / Exportar"
+  },
+  {
+   "default": "0",
+   "fieldname": "exportar",
+   "fieldtype": "Check",
+   "label": "Exportar"
+  },
+  {
+   "default": "0",
+   "fieldname": "establecer_permisos_de_usuario",
+   "fieldtype": "Check",
+   "label": "Establecer Permisos de Usuario"
+  },
+  {
+   "default": "0",
+   "fieldname": "compartir",
+   "fieldtype": "Check",
+   "label": "Compartir"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2026-05-06 17:03:58.089286",
+ "modified_by": "Administrator",
+ "module": "Permissions App",
+ "name": "Rol Detalle",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
