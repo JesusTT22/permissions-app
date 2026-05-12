@@ -1,4 +1,4 @@
-frappe.ui.form.on('Administrar Permisos', {
+frappe.ui.form.on('Administrador de Permisos', {
     refresh: function(frm) {
         // Botón opcional para forzar el escaneo de dependencias manualmente
         frm.add_custom_button(__('Escanear Dependencias'), () => {
@@ -23,7 +23,8 @@ frappe.ui.form.on('Permisos por Documento', { // Reemplaza con el nombre real de
 
 function obtener_permisos_existentes(frm) {
     frappe.call({
-        method: 'permissions_app.permissions_app.doctype.administrar_permisos.administrar_permisos.get_permisos_por_documento',
+        // AQUI ESTÁ EL PRIMER CAMBIO: administrador_de_permisos
+        method: 'permissions_app.permissions_app.doctype.administrador_de_permisos.administrador_de_permisos.get_permisos_por_documento',
         args: { role: frm.doc.rol_principal },
         callback: (r) => {
             frm.clear_table('lista_de_permisos');
@@ -50,7 +51,8 @@ function detectar_faltantes(frm) {
     }
 
     frappe.call({
-        method: 'permissions_app.permissions_app.doctype.administrar_permisos.administrar_permisos.get_doctypes_faltantes',
+        // AQUI ESTÁ EL SEGUNDO CAMBIO: administrador_de_permisos
+        method: 'permissions_app.permissions_app.doctype.administrador_de_permisos.administrador_de_permisos.get_doctypes_faltantes',
         args: { doctypes: JSON.stringify(doctypes) },
         callback: (r) => {
             frm.clear_table('enlace_documento');

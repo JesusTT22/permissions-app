@@ -35,7 +35,7 @@
  "modified": "2026-05-03 18:52:27.239867",
  "modified_by": "Administrator",
  "module": "Permissions App",
- "name": "Administrar Permisos",
+ "name": "Administrador de Permisos",
  "owner": "Administrator",
  "permissions": [
   {

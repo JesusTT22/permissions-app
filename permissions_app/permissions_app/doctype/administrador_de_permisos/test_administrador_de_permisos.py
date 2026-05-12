@@ -4,5 +4,5 @@
 # import frappe
 import unittest
 
-class TestAdministrarPermisos(unittest.TestCase):
+class TestAdministradordePermisos(unittest.TestCase):
 	pass
